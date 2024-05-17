@@ -551,7 +551,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   padding: 7rem 0 10rem 0;
   background: #6998AB;
   margin-bottom: 100px; }
-  
   .hero.hero-inner {
     padding: 9rem 0 7rem 0;
     margin-bottom: auto;
@@ -559,14 +558,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .hero h1 {
     color: #ffffff;
     font-size: 60px; }
-	
-	
-	
-	
-	
-	
-	
-	
     @media (max-width: 991.98px) {
       .hero h1 {
         font-size: 45px; } }
@@ -583,10 +574,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .hero .intro-wrap {
     position: relative;
     z-index: 1; }
-	
   .hero .slides {
-	display: block;
-    margin: 0 auto;  
     background: #ffffff;
     max-width: 800px;
     left: -100px;
@@ -595,204 +583,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     border-radius: 200px;
     -webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
     box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-    height: 608px;
+    height: 472px;
     margin-bottom: -200px; }
-	
-	
-	/*Media Query for Galaxy Fold max 280px*/
-	@media (max-width: 280px) {
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 30px; 
-              }
-		.hero .slides {
-			            display: block;
-                        margin: 0 auto;
-			            background: #ffffff;
-						max-width: 800px;
-						left: -100px;
-						z-index: 0;
-						position: relative;
-						border-radius: 200px;
-						-webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						height: 343px;
-						margin-bottom: -200px; 
-	}	
-	} /* Media Query max 280px ends */
-	
-	
-	/* Media Query for Samsung Galaxy S8+ */
-	@media (min-width: 281px) and (max-width: 360px) {
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 40px; 
-              }
-		.hero .slides {
-			            display: block;
-                        margin: 0 auto;
-			            background: #ffffff;
-						max-width: 800px;
-						left: -100px;
-						z-index: 0;
-						position: relative;
-						border-radius: 200px;
-						-webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						height: 453px;
-						margin-bottom: -200px; 
-	}	
-	} /* Media Query 281px - 360px ends */
-	
-	
-	
-	/* Samsung Galaxy S20 Ultra */
-	@media (min-width: 361px ) and (max-width: 480px) {
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 80px; 
-              }
-		.hero .slides {
-			            display: block;
-                        margin: 0 auto;
-			            background: #ffffff;
-						max-width: 800px;
-						left: -100px;
-						z-index: 0;
-						position: relative;
-						border-radius: 200px;
-						-webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						height: 472px;
-						margin-bottom: -200px; 
-	}	
-	} /* Media Query max 480px ends */
-	
-	@media (min-width: 481px ) and (max-width: 576px) {
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 50px; 
-              }
-		.hero .slides {
-			            display: block;
-                        margin: 0 auto;
-			            background: #ffffff;
-						max-width: 800px;
-						left: -100px;
-						z-index: 0;
-						position: relative;
-						border-radius: 200px;
-						-webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						height: 700px;
-						margin-bottom: -200px; 
-	}	
-	} /* Media Query  max 576px ends */
-	
-	
-	@media (min-width: 500px ) and (max-width: 556px) {
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 100px; 
-              }
-		.hero .slides {
-			            display: block;
-                        margin: 0 auto;
-			            background: #ffffff;
-						max-width: 800px;
-						left: -100px;
-						z-index: 0;
-						position: relative;
-						border-radius: 200px;
-						-webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-						height: 622px;
-						margin-bottom: -200px; 
-	}	
-	} /* Media Query  max 576px ends */
-	
-	
-	@media (min-width: 577px) and (max-width: 768px){
-		.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 100px; 
-              }
-  .hero .slides {
-	display: block;
-    margin: 0 auto;
-	display: block;
-    margin: 0 auto;
-    background: #ffffff;
-    max-width: 578px;
-    left: -100px;
-    z-index: 0;
-    position: relative;
-    border-radius: 200px;
-    -webkit-box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    height: 700px;
-    margin-bottom: -200px;
-}
-} /* Media Query max 768px ends */
-
-
-
-
-@media (min-width: 769px) and (max-width: 991.98px){
-	.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 60px; 
-              }
-.hero .slides {
-	display: block;
-    margin: 0 auto;
-    background: #ffffff;
-    max-width: 578px;
-    left: -100px;
-    z-index: 0;
-    position: relative;
-    border-radius: 200px;
-    -webkit-box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    height: 794px;
-    margin-bottom: -200px;
-}
-} /* Media Query max 992px ends */
-
-
-
-@media (min-width: 991.99px) and (max-width: 1200px){
-	.hero {
-			  padding: 7rem 0 10rem 0;
-			  background: #6998AB;
-			  margin-bottom: 50px; 
-              }
-.hero .slides {
-	display: block;
-    margin: 0 auto;
-    background: #ffffff;
-    max-width: 800px;
-    left: -100px;
-    z-index: 0;
-    position: relative;
-    border-radius: 200px;
-    -webkit-box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    box-shadow: 0 25px 50px -10px rgb(26 55 77 / 40%);
-    height: 508px;
-    margin-bottom: -200px;
-}
-} /* Media Query max 1200px ends */
-	
-	
-	
-	
     @media (max-width: 991.98px) {
       .hero .slides {
         left: 0; } }
